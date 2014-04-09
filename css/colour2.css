@@ -1,0 +1,23 @@
+a {
+  color:#000;
+}
+
+.page-footer, .logo, .header-content,.header-nav-list li a, .info-btn, .info-btn:visited, .find-h2, .page-footer, .clear-css-btn, .contact-submit {
+  color: #fff;
+}
+
+.info-btn, .find-h2 {
+  background-color: #d85a38;
+}
+
+.find-container {
+  background-color: #f1e8c2;
+}
+
+.clear-css-btn, .contact-submit {
+  background-color: #4c7986;
+}
+
+.clear-css-btn:active, .contact-submit:active {
+  background-color: #466f7a;
+}

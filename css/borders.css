@@ -1,0 +1,40 @@
+.info-btn, .find-container {
+  border: 5px solid #a84c33;
+  border-radius: 5px;
+}
+
+.canvas {
+  border: 1px solid #b9b9b9;
+}
+
+.game-info p {
+  padding-left: 2.0625em; /* 33px / 16px */ 
+}
+
+.clear-css-btn, .contact-submit {
+  border: 5px solid #315965;
+  border-radius: 5px;
+}
+
+@media all and (max-width: 959px) {
+  .game-info p {
+    padding-left: 0;
+  }
+  
+  .header-nav-list li:not(:last-child) {
+    border-bottom: 1px solid #fff;
+  }
+}
+
+@media all and (max-width: 485px) {
+
+  .canvas, .find-container {
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+  }
+  
+}
+
+
+

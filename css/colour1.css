@@ -1,0 +1,15 @@
+.page-header {
+  background-color: #315965;
+}
+
+.page-footer {
+  background-color: #3b3b3b;
+}
+
+.success {
+  color: #40A9E0; 
+}
+
+.error {
+  color: red;
+}

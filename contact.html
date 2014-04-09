@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Carl's Sheety Situation</title>
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"  />
+  <meta name="description" content="Enjoyed Carl's Sheety Situation? Or have any questions? Feel free to contact the developer here.">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link id="css-after-here" href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="page">
+    <noscript>
+      <div style="color:red; font-size:x-large"> 
+        <p>To fully enjoy and experience this website please turn javascript on or update your browser</p>
+        <p>Remember <a href="http://www.browsehappy.com" rel="nofollow">Browse Happy</a></p>
+      </div>
+    </noscript>
+    <header class="page-header">
+      <div class="header-content">
+        <h1 class="site-name"><a href="index.html" class="logo">Carl's <br>Sheety Situation</a></h1>
+        <a href="#" id="menu-btn" class="menu-btn">Menu</a>
+        <nav>
+          <h2 class="txt-hide">Main Navigation</h2>
+          <ul class="header-nav-list">
+            <li><a href="index.html">The Game</a></li>
+            <li>|</li>
+            <li ><a href="about.html">About</a></li>
+            <li>|</li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <main id="content">
+      <h1>Contact</h1>
+      <div class="contact-box">
+        <p>Feel free to contact below</p>
+        <div id="response-box"></div>
+        <form id="contact-form" action="contact-process.php" method="POST">
+          <p>
+            <label for="name"  class="txt-hide">Name:</label>
+            <input id="name" class="contact-input" name="name" type="text" placeholder="Name*" required>
+          </p>
+          <p>
+            <label for="email" class="txt-hide">Email:</label>
+            <input id="email" class="contact-input" name="email" type="email" placeholder="Email*" required>
+          </p>
+          <p>
+            <label for="phone" class="txt-hide">Phone:</label>
+            <input id="phone" class="contact-input" name="phone" type="number" placeholder="Phone Number">
+          </p>
+          <p>
+            <label for="message" class="txt-hide">Message:</label>
+            <textarea id="message" class="contact-input textbox" name="message" placeholder="Message*" required></textarea>
+          </p> 
+          <p>
+            <input name="contactme" type="hidden" value="hi">
+            <input class="contact-input contact-submit" name="submit" type="submit" value="Submit">
+          </p>
+        </form>
+      </div>
+    </main>
+    <div class="push"></div>
+  </div>
+  <footer class="page-footer">
+    <p>&copy; 2014 James Sinclair</p>
+  </footer>
+
+  <script src="js/page.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

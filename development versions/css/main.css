@@ -1,0 +1,23 @@
+body {
+  text-align:center;
+}
+
+canvas {
+  border: 1px solid #b1b1b1;
+}
+
+
+button {
+        display: block;
+        width: auto;
+        margin: 0 auto;
+      }
+
+ul {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  width: auto;
+  margin: 0 auto;
+}
+

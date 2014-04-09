@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>The Game | Carl's Sheety Situation</title>
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"  />
+  <meta name="description" content="Help Carl find all the CSS files and restore the website. A fun interactive HTML5 Game by James Sinclair.">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link id="css-after-here" href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="page">
+    <noscript>
+      <div style="color:red; font-size:x-large"> 
+        <p>To fully enjoy and experience this website please turn javascript on or update your browser</p>
+        <p>Remember <a href="http://www.browsehappy.com" rel="nofollow">Browse Happy</a></p>
+      </div>
+    </noscript>
+    <header class="page-header">
+      <div class="header-content">
+        <h1 class="site-name"><a href="index.html" class="logo">Carl's <br>Sheety Situation</a></h1>
+        <a href="#" id="menu-btn" class="menu-btn">Menu</a>
+        <nav>
+          <h2 class="txt-hide">Main Navigation</h2>
+          <ul class="header-nav-list">
+            <li><a href="#">The Game</a></li>
+            <li>|</li>
+            <li><a href="about.html">About</a></li>
+            <li>|</li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <div id="content">
+      <h1 class="txt-hide">Game Page</h1>
+      <div class="game-info">
+        <h2 class="txt-hide">Game Info</h2>
+        <a id="info-btn" href="#" class="info-btn"><span class="rotate-arrow">&gt;</span> Info</a>
+        <p id="toggle-info" class="toggle-info"><br>
+          Uh oh, why does this website look so boring or broken? Oh it's Carl, he's lost all the CSS files (Cascading Style Sheets) for the website. <br><br> A CSS file is essentially a file with a list of rules on how a website should display. The browser takes those rules and applies it magically somehow to make a pretty(or ugly) looking website that we all know and love. <br><br>
+          To help Carl keep his job and restore this website, navigate his desktop and place the files in the correct folder. <br><br>
+          <b>Controls:</b> <br>
+          Tap/Mouse: To move the cursor use your mouse or tap where you want it to move.<br>
+          Double Tap/Click: To pick up/drop a file. Or interact with some folders and buttons<br>
+        </p>
+      </div>
+      
+      <div class="game-container">
+        <h2 class="txt-hide">The Game</h2>
+        <canvas id="game-canvas" class="canvas">
+          <p style="color:red;">This game requires a browser that supports the canvas element</p>
+          <p style="color:red;">Remember <a href="http://www.browsehappy.com" rel="nofollow">Browse Happy</a></p>
+        </canvas>
+    
+        <div class="find-container">
+          <h2 class="find-h2">Files To Find</h2>
+          <ol id='find-list' class="find-list">
+            <li id="csslist1">reset.css</li>
+            <li id="csslist2">images.css</li>
+            <li id="csslist3">layout.css</li>
+            <li id="csslist4">fonts.css</li>
+            <li id="csslist5">colour1.css</li>
+            <li id="csslist6">colour2.css</li>
+            <li id="csslist7">borders.css</li>
+          </ol>
+          <button id="clear-btn" class="clear-css-btn">Clear Files?</button>
+        </div>
+        <div class="clear-both"></div>
+      </div>
+    </div>
+    <div class="push"></div>
+  </div>
+  <footer class="page-footer">
+    <p>&copy; 2014 James Sinclair</p>
+  </footer>
+
+  <script src="js/tocca.js"></script>
+  <script src="js/page.js"></script>
+  <script src="js/gameImages_v02.js"></script>
+  <script src="js/game_v021.js"></script>
+</body>
+</html>

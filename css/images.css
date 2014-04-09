@@ -1,0 +1,18 @@
+.logo {
+  background: url('../images/logo.png') no-repeat;
+}
+
+@media all and (max-width: 959px) {
+  .menu-btn {
+    text-indent: -9000px;
+    background: url('../images/menu.png') no-repeat 4px;
+    width:36px;
+  }
+}
+/*
+for media query
+.menu-btn {
+  text-indent: -9000px;
+  background: url('../images/menu.png') no-repeat 4px;
+}
+*/
