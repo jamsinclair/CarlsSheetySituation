@@ -1,6 +1,6 @@
 # Carl's Sheety Situation
 
-![Carl Sheety Situation Screenshot](https://github.com/jamsinclair/CarlsSheetySitutation/raw/master/images/css-screenshot.png "Carl Sheety Situation Screenshot")
+![Carl Sheety Situation Screenshot](https://raw.githubusercontent.com/jamsinclair/CarlsSheetySituation/master/images/css-screenshot.png "Carl Sheety Situation Screenshot")
 
 First attempt at a Html5 interactive game/website using canvas element (Also first Git repo!).
 
